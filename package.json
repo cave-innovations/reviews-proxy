@@ -1,17 +1,25 @@
 {
-  "name": "",
+  "name": "reviews-proxy",
   "version": "",
-  "description": "",
-  "author": "",
-  "license": "",
+  "description": "The reviews proxy server",
+  "author": "ssoro013",
+  "license": "UNLICENSED",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "start": "nodemon ./server/server.js"
   },
   "dependencies": {
+    "aws-sdk": "^2.522.0",
+    "cors": "^2.8.5",
+    "eslint": "^6.3.0",
+    "eslint-plugin-react": "^7.14.3",
+    "express": "^4.17.1",
+    "http-proxy": "^1.17.0",
+    "path": "^0.12.7"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor.git"
   }
 }
